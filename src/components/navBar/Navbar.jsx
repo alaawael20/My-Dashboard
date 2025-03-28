@@ -7,7 +7,6 @@ import {
   Toolbar,
   Box,
   Avatar,
-  Badge,
   Tooltip,
   Menu,
   MenuItem,
@@ -15,7 +14,6 @@ import {
   ListItemIcon,
 } from "@mui/material";
 import { FiSearch } from "react-icons/fi";
-import MailIcon from "@mui/icons-material/Mail";
 import LanguageIcon from "@mui/icons-material/Language";
 import SettingsIcon from "@mui/icons-material/Settings";
 import { CiDark, CiLight } from "react-icons/ci";
@@ -48,19 +46,6 @@ const Navbar = () => {
             alignItems: "center",
           }}
         >
-          {/* <IconButton
-            edge="start"
-            color="inherit"
-            aria-label="menu"
-            sx={{
-              mr: 2,
-              display: { sm: "block", md: "none" },
-              color: "var(--primary-color)",
-            }}
-          >
-            <FiAlignJustify />
-          </IconButton> */}
-
           <Box
             sx={{
               display: "flex",
@@ -98,22 +83,7 @@ const Navbar = () => {
             </Box>
           </Box>
 
-          <Box sx={{ display: "flex", gap: 2 }}>
-            <Tooltip title="Messages">
-              <IconButton
-                sx={{
-                  color: "var(--primary-color)",
-                  "&:hover": {
-                    backgroundColor: "transparent",
-                  },
-                }}
-              >
-                <Badge color="primary" badgeContent="New">
-                  <MailIcon />
-                </Badge>
-              </IconButton>
-            </Tooltip>
-
+          <Box sx={{ display: "flex", gap: 1 }}>
             <Tooltip title="Language">
               <IconButton
                 sx={{
