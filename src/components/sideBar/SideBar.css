@@ -3,7 +3,7 @@
     margin: auto 30px;
     padding-block: 30px;
     border-radius: 20px;
-    background-color: #FFF;
+    background-color: var(--white-color);
 }
 
 .logo {
@@ -33,11 +33,11 @@
   }
   
   .links .link:hover {
-    background-color: #FF8E29;
-    color: #FFF;
+    background-color: var(--primary-color);
+    color: var(--white-color);
     transform: scale(1.05);
     opacity: 1;
-    box-shadow: 0px 4px 10px #ffd5b1;
+    box-shadow: 0px 4px 10px var(--secondary-color);
   }
   
   .links .link:hover .icon {
@@ -45,8 +45,8 @@
   }
   
   .links .link.active {
-    background-color: #FF8E29;
-    color: #FFF;
+    background-color: var(--primary-color);
+    color: var(--white-color);
     font-weight: bold;
     transform: scale(1.05);
     opacity: 1;

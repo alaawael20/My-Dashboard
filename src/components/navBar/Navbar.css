@@ -1,0 +1,11 @@
+.logoNav {
+    width: 70px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.customeAppBar .appBar {
+    background-color: transparent;
+    box-shadow: none;
+    border-bottom: none;
+}

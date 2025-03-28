@@ -1,6 +1,6 @@
 .not-found-container {
     text-align: center;
-    color: #000000;
+    color: var(--black-color);
     height: 80vh;
     display: flex;
     flex-direction: column;
@@ -11,7 +11,7 @@
   .not-found-title {
     font-size: 6rem;
     font-weight: bold;
-    color: #FF8E29;
+    color: var(--primary-color);
   }
   
   .not-found-text {
@@ -22,13 +22,12 @@
   .not-found-link {
     text-decoration: none;
     padding: 10px 20px;
-    background-color: #FF8E29;
-    color: #ffffff;
+    background-color: var(--primary-color);
+    color: var(--white-color);
     border-radius: 5px;
     transition: background 0.3s;
   }
   
   .not-found-link:hover {
-    background-color: #dc6700;
+    background-color: var(--secondary-color);
   }
-  
