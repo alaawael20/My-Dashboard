@@ -1,7 +1,7 @@
 import { FaDatabase, FaUsers } from "react-icons/fa";
 import { FiBarChart, FiShoppingCart } from "react-icons/fi";
 import { FaArrowTrendUp } from "react-icons/fa6";
-import { MdTrendingDown } from "react-icons/md";
+import { MdOutlineMessage, MdTrendingDown, MdVisibility } from "react-icons/md";
 
 export const analytics = [
   {
@@ -45,7 +45,29 @@ export const analytics = [
     secondaryIcon: <MdTrendingDown />,
     rate: "-10% last month",
     date: "May 2025",
-    backgroundColor: "var(--primary-color)",
+    backgroundColor: "#67CADF",
     rateColor: "red",
+  },
+  {
+    id: 4,
+    icon: <MdOutlineMessage />,
+    name: "Meesages",
+    numbers: "30",
+    secondaryIcon: <FaArrowTrendUp />,
+    rate: "+10% last month",
+    date: "May 2025",
+    backgroundColor: "#F54F5F",
+    rateColor: "green",
+  },
+  {
+    id: 5,
+    icon: <MdVisibility />,
+    name: "Visitors",
+    numbers: "70",
+    secondaryIcon: <FaArrowTrendUp />,
+    rate: "+70% last month",
+    date: "May 2025",
+    backgroundColor: "#27D095",
+    rateColor: "green",
   },
 ];
