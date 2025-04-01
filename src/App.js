@@ -1,5 +1,4 @@
 import { BrowserRouter, Outlet, Route, Routes } from "react-router-dom";
-import Dashboard from "./pages/Dashboard";
 import NotFound from "./pages/notFoundPage/NotFound";
 import UserManagement from "./pages/userManagement/UserManagement";
 import DataManagement from "./pages/dataManagement/DataManagement";
@@ -9,6 +8,7 @@ import Settings from "./pages/settings/Settings";
 import { Box } from "@mui/material";
 import SideBar from "./components/sideBar/SideBar";
 import Navbar from "./components/navBar/Navbar";
+import Dashboard from "./pages/dashboard/Dashboard";
 
 const Layout = () => {
   return (
