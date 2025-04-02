@@ -8,10 +8,11 @@ import {
   engagementStatsData,
   marketAnalysisData,
   userInteractionsData,
+  VisitorsMyWebsiteData,
 } from "../../mock/sampleData";
 import { FiUsers } from "react-icons/fi";
 import { FaChartPie } from "react-icons/fa";
-import { MdAnalytics } from "react-icons/md";
+import { MdAnalytics, MdOutlineVisibility } from "react-icons/md";
 import BasicPie from "./../../components/basicPie/BasicPie";
 
 const Dashboard = () => {
@@ -66,6 +67,13 @@ const Dashboard = () => {
               title="Engagement Stats"
               data={engagementStatsData}
               Icon={MdAnalytics}
+            />
+          </Grid>
+          <Grid item xs={4} display="flex" justifyContent="center">
+            <BasicPie
+              title="My page visitors percentage"
+              data={VisitorsMyWebsiteData}
+              Icon={MdOutlineVisibility}
             />
           </Grid>
         </Grid>

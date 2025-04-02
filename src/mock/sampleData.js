@@ -22,3 +22,8 @@ export const engagementStatsData = [
   { id: 4, value: 20, label: "Saves", color: "#581845" },
   { id: 5, value: 35, label: "Mentions", color: "#DAF7A6" },
 ];
+
+export const VisitorsMyWebsiteData = [
+  { id: 1, value: 70, label: "Followers", color: "#27D095" },
+  { id: 2, value: 30, label: "Unfollowers", color: "#F54F5F" },
+];
